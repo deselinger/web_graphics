@@ -1,0 +1,13 @@
+<html>
+    <body>
+        <canvas id="canvas" width="400" height="400" style="background-color:#333">
+        </canvas>
+        <script>
+            var img = new Image();
+            img.src = 'https://i.redd.it/swhtiu8zamo11.jpg';
+            img.addEventListener('load', function(){
+                drawImage(img, 0, 0);
+            }, false);
+        </script>
+    </body>
+</html>

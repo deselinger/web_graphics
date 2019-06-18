@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <canvas id="canvas1" width="200" height="100" style="border:1px solid #000000;"></canvas>    
+        <script>
+        function fillDraw(){
+            var ctx = document.getElementById("canvas").getContext('2d');
+            ctx.font = '48px serif';
+            ctx.fillText('Test Post Please Ignore', 10, 50);
+        }
+        function strokeDraw(toDraw){
+            var ctx = document.getElementById("canvas").getContext('2d');
+            ctx.font = '48px serif'
+            ctx.strokeText('Test Ghost Please Ignore')
+        }
+        </script>
+    </body>
+</html>
